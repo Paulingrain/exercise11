@@ -1,0 +1,68 @@
+.picture-grid{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    column-gap: 20px;
+    align-items: center;
+}
+
+
+
+.oliver-div{
+    box-shadow: 2px 2px 2px 2px rgba(0.15, 0.15,0.15, 0.15);
+margin-top: 20px;
+}
+.oliver-image{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+.oliver{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: verdana;
+    margin-bottom: 0px;
+    margin-top: 0%;
+}
+
+.addfriends{
+    font-size: 11px;
+background-color: rgb(29, 155, 240);
+color: white;
+padding: 8px 10px;
+border: none;
+font-weight: bold;
+border-radius: 4px; 
+margin-bottom: 10px;
+}
+
+.baby4-mutual-grid{
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    align-items: center;
+    column-gap: 5px;
+}
+.mutual{
+    font-size: 14px;
+    width: 150px;
+    color: gray;
+    font-family: arial;
+}
+
+.baby4{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    object-position: center;
+    border-radius:25px;
+    
+    
+}
+.baby4-div{
+    vertical-align: middle;
+}
+
+.mutual-div{ 
+  
+    vertical-align: middle;
+}
